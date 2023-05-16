@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progressbar{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5% 0 5%;
+}
+
+.progress{
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+}
+
+.labels
+{
+    width: 100%;
+    display: flex;
+
+
+}
+
+.bar
+{
+    width:calc(100%/4);
+
+    background-color: aqua;
+    text-align: center;
+}
+
+
+
+
+.sliderContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10% 0 10%;
+
+
+}
+
+.slider{
+height: 13px;
+width: 100%;
+background-color: blue;
+position:absolute;
+left: 8%;
+border-radius: 5px;
+    
+}
+
+.valuesContainer{
+    display: flex;
+
+    width: 100%;
+    position: relative;
+
+
+
+}
+.togglePages{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.values{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.line{
+    width: 52%;
+    height: 2px;
+    border-top: solid 2px grey;
+    position: absolute;
+left: 16%;
+top: 10%;
+
+}
+
+
+.prev,.next{
+    cursor: pointer;
+}
